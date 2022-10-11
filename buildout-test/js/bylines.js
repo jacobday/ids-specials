@@ -105,7 +105,7 @@ function loadJSON(fileName) {
 }
 
 function init() {
-  loadJSON("articles.json");
+  loadJSON("metadata.json");
 }
 
 init();
