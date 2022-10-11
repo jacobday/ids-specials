@@ -119,7 +119,7 @@ function loadJSON(fileName) {
       // convert from string to JSON object
       const dataJSON = JSON.parse(responseText);
 
-      // Generate articles from JSON data
+      // Initialize bylines, pub_date, slug, etc.
       init(dataJSON);
     }
   };
